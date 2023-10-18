@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://fonts.google.com/specimen/Hanken+Grotesk">
+
+    <script src="main.js" defer></script>
+    
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+
+  <body>
+    <header></header>
+
+    <main>
+      <div class="container">
+        <section class="result">
+          <!-- Result -->
+          <div class="inside-result">
+            <div id="title-result">
+              <h3 class="gray">Your Result</h3>
+            </div>
+            <div id="your-result">
+              <h1></h1>
+              <span class="gray">of 100</span>
+            </div>
+            
+            <div id="paragraph">
+              <h2></h2>
+              <p class="gray">
+                You scored <span id="comp"></span> 65% of the people who have taken these tests.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="summary">
+          <!-- Summary -->
+          <div class="inside-summary">
+            <div id="title-summary">
+              <h3>Summary</h3>
+            </div>
+            <div class="list">
+              <blockquote id="reaction">
+                <div class="first">
+                  <img src="" alt="reaction">
+                  <span id="red" class="category">Reaction</span>
+                </div>
+                <div>
+                  <span class="score">80</span>
+                  <span class="cien">/ 100</span>
+                </div>
+              </blockquote>
+              <blockquote id="memory">
+                <div class="first">
+                  <img src="" alt="memory">
+                  <span id="yellow" class="category">Memory</span>
+                </div>
+                <div>
+                  <span class="score">92</span>
+                  <span class="cien">/ 100</span>
+                </div>
+              </blockquote>
+              <blockquote id="verbal">
+                <div class="first">
+                  <img src="" alt="verbal">
+                  <span id="green" class="category">Verbal</span>
+                </div>
+                <div>
+                  <span class="score">61</span>
+                  <span class="cien">/ 100</span>
+                </div>
+              </blockquote>
+              <blockquote id="visual">
+                <div class="first">
+                  <img src="" alt="visual">
+                  <span id="blue" class="category">Visual</span>
+                </div>
+                <div>
+                  <span class="score">72</span>
+                  <span class="cien">/ 100</span>
+                </div>
+              </blockquote>
+            </div>
+            <div id="continue">
+              <button>Continue</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!--
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+    -->
+  </body>
+</html>
